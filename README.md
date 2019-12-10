@@ -4,6 +4,9 @@ This is a course project for CSE 592 Convex Optimization, by Boyu Wang and Yang 
 
 We study the preconditioning matrix for ridge regression. The experiments are performed on a subset of MNIST dataset (digit 4 and 7).
 
+Please check the report for more details. [PDF](report.pdf)
+
+
 Our proposed preconditioning matrix $$P$$ is:
 $$P_k = \Lambda_k ^{-\frac{1}{2}}U_k^T$$,
 where $$\Lambda_k$$ and $$U_k$$ is the k-th largest eigen value and vector for correlation matrix $$C=\frac{1}{n}XX^T$$. 
